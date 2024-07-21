@@ -1,0 +1,122 @@
+.header {
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #131313;
+}
+
+.header__logo-image {
+  width: 78.45px;
+  height: 15.43px;
+}
+
+.header__menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.header__menu-list-item-link {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.header__menu-list-item-link-active {
+  border-bottom: 0;
+}
+
+.cover {
+  background-image: url(../images/cover.svg);
+  background-position: bottom right;
+  background-size: 94% auto;
+  background-repeat: no-repeat;
+  background-color: #131313;
+}
+
+.cover__title{
+  padding: 9px 24px 4px 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: Ebgaramond;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+}
+
+.text-center {
+  align-self: center;
+}
+.text-right {
+  align-self: end;
+}
+
+.intro {
+  padding: 30px 20px 38px;
+  background-color: #131313;
+}
+.intro__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 120%;
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.intro__header-date {
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  line-height: 135%;
+}
+
+.reasons {
+  padding: 40px 20px;
+  background: #fee42a;
+  color: #131313;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.reasons__subtitle {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-family: Ebgaramond;
+  font-size: 28px;
+  line-height: 115%;
+}
+
+.reasons__introduction {
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.reasons__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 17px;
+}
+
+.reasons__list-item {
+  font-size: 16px;
+  line-height: 135%;
+  font-weight: 400;
+}
+
+.reasons__list-accent {
+  font-weight: 700;
+}
